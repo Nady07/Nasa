@@ -56,12 +56,17 @@
             }
         ];
         
-        this.myOptions = {
-            zoom: this.defaultZoom,
-            center: this.map_centroid,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            styles: basemapStyles 
-        };
+// Coordenadas aproximadas para centrar el mapa en Sudamérica
+const southAmericaCenter = { lat: -15.7835, lng: -47.9292 }; // Latitud y longitud de Brasilia, Brasil
+
+// Configuración de las opciones del mapa de Google Maps
+this.myOptions = {
+    zoom: 3,  // Ajusta el nivel de zoom, 4 es adecuado para ver Sudamérica completa
+    center: southAmericaCenter,  // Centro del mapa en Sudamérica
+    mapTypeId: google.maps.MapTypeId.ROADMAP,  // Tipo de mapa (carreteras)
+    styles: basemapStyles  // Estilos personalizados para el mapa
+};
+
         this.geocoder = new google.maps.Geocoder();
         this.map = new google.maps.Map($("#map_canvas")[0], this.myOptions);
         
