@@ -1,5 +1,56 @@
-# Fusion Table Searchable Map Template
-**No longer working** [Google shut down Fusion Tables on Dec 3rd, 2019](https://support.google.com/fusiontables/answer/9185417). This template no longer functions.
+# NASA Space Apps 2025 - Mapa Interactivo
+
+> Plataforma de mapeo interactivo desarrollada para el hackathon NASA Space Apps.
+
+---
+
+## Descripción
+
+Este repositorio contiene el código de un **mapa interactivo y buscador de datos geográficos**, desarrollado como parte de la participación en el hackathon **NASA Space Apps 2025**. El proyecto utiliza una plantilla de mapa con búsqueda por dirección y filtros, adaptada para visualizar datos relacionados con la temática del hackathon.
+
+El objetivo fue crear una herramienta visual e intuitiva para explorar conjuntos de datos georreferenciados, facilitando el análisis y la toma de decisiones.
+
+**Contexto del hackathon:** NASA Space Apps es un hackathon internacional donde equipos de todo el mundo desarrollan soluciones innovadoras utilizando datos abiertos de la NASA y otras agencias espaciales.
+
+---
+
+## Tecnologías
+
+| Tecnología | Descripción |
+|------------|-------------|
+| **JavaScript** | Lógica principal del mapa y las interacciones |
+| **HTML5** | Estructura de la interfaz |
+| **CSS3** | Estilos y diseño visual |
+| **Google Maps API** | Visualización de mapas y geolocalización |
+| **Google Fusion Tables** | Almacenamiento y consulta de datos geográficos |
+| **jQuery** | Manipulación del DOM y peticiones AJAX |
+| **Bootstrap 3** | Framework de diseño responsive |
+
+---
+
+## Funcionalidades Implementadas
+
+- **Visualización de datos:** Muestra puntos georreferenciados en un mapa interactivo.
+- **Búsqueda por dirección:** Permite buscar ubicaciones específicas con geolocalización.
+- **Filtros dinámicos:** Capacidad de añadir filtros adicionales (checkboxes, sliders, etc.).
+- **Conteo de resultados:** Muestra el número de registros encontrados.
+- **Diseño responsive:** Adaptable a dispositivos móviles y tablets.
+- **Compartir búsquedas:** URLs RESTful para compartir resultados de búsqueda.
+
+---
+
+## Instalación y Uso
+
+### Requisitos previos
+- Navegador web moderno (Chrome, Firefox, Edge)
+- Conexión a Internet para cargar las APIs de Google
+
+### Pasos para ejecutar el proyecto
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Nady07/Nasa.git
+   cd Nasa
 
 However, I have since created two new mapping templates that **do** work based on this one:
 
